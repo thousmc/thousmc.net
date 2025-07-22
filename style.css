@@ -26,6 +26,7 @@ body {
 .logo {
     height: 84px;
     width: 84px;
+    margin-bottom: -6px;
 }
 .title-nav-container {
     flex-grow: 1;
