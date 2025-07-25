@@ -144,7 +144,6 @@ h3 {
   color: var(--background-color);
   border-color: var(--foreground-color);
 }
-/* New styling for the IP button next to the title */
 .ip-button {
   background-color: #2e8b57;
   border: 1px solid #3cb371;
@@ -156,8 +155,8 @@ h3 {
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.2s ease;
-  position: relative; /* This allows us to move it */
-  top: -7px;          /* This nudges it up by 3 pixels */
+  position: relative;
+  top: -5px;
   width: 160px;
   text-align: center;
 }
@@ -166,7 +165,6 @@ h3 {
   border-color: #fff;
 }
 .liberapay-btn {
-    /* Adopting styles from your other buttons */
     font-family: inherit;
     font-size: 32px;
     font-weight: bold;
@@ -175,12 +173,8 @@ h3 {
     transition: all 0.2s ease;
     text-decoration: none;
     justify-content: center;
-
-    /* Using a modern flex layout for the icon and text */
     display: flex;
-    gap: 8px; /* This creates space between the icon and text */
-    
-    /* Keeping the brand colors */
+    gap: 8px;
     background-color: var(--background-alt);
     color: var(--foreground-color);
     border: 1px solid var(--foreground-color);
@@ -192,6 +186,4 @@ h3 {
 .liberapay-btn:hover {
     background-color: var(--foreground-color);
     color: var(--background-color);
-    /* You could add a subtle border change on hover to match the others */
-    /* border-color: #eab90f; */
 }
