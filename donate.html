@@ -4,8 +4,7 @@
         <title>thousmc.net</title>
         <link rel="stylesheet" href="style.css">
         <script type="text/javascript" src="scripts/darkmode.js" defer></script>
-        <script src="https://cdn.jsdelivr.net/npm/date-fns@4.1.0/cdn.min.js"></script>
-        <script type="text/javascript" src="scripts/worldage.js" defer></script>
+        <script type="text/javascript" src="scripts/copyaddressbutton.js" defer></script>
         <link rel="icon" type="image/png" href="images/favicon.png">
     </head>
     <body>
@@ -36,8 +35,63 @@
             </button>
         </div>
         <hr>
-        <div class="text">
-            Thousmc costs $8.62/month (guess, update) to run. By just donating $X, you can cover X months of uptime.
+        <div class="image-container">
+
+            <!-- bitcoin Card -->
+            <div class="crypto-card">
+                <p class="crypto-label">bitcoin</p>
+                <picture>
+                    <source srcset="images/qr-donate-crypto/avif/thousmc-bitcoin-qr.avif" type="image/avif">
+                    <source srcset="images/qr-donate-crypto/webp/thousmc-bitcoin-qr.webp" type="image/webp">
+                    <img loading="lazy" alt="Bitcoin donation QR code" src="images/qr-donate-crypto/png/thousmc-bitcoin-qr.png">
+                </picture>
+                <button class="copy-button" data-address="bc1q8dn785g36pg4me7twz4lny8ngt0994mk9jep2u">copy address</button>
+            </div>
+
+            <!-- ethereum Card -->
+            <div class="crypto-card">
+                <p class="crypto-label">ethereum</p>
+                <picture>
+                    <source srcset="images/qr-donate-crypto/avif/thousmc-ethereum-qr.avif" type="image/avif">
+                    <source srcset="images/qr-donate-crypto/webp/thousmc-ethereum-qr.webp" type="image/webp">
+                    <img loading="lazy" alt="Ethereum donation QR code" src="images/qr-donate-crypto/png/thousmc-ethereum-qr.png">
+                </picture>
+                <button class="copy-button" data-address="0xb689E7DEc2162531734f00A3B1eF7C8b9547c02c">copy address</button>
+            </div>
+
+            <!-- monero Card -->
+            <div class="crypto-card">
+                <p class="crypto-label">monero</p>
+                <picture>
+                    <source srcset="images/qr-donate-crypto/avif/thousmc-monero-qr.avif" type="image/avif">
+                    <source srcset="images/qr-donate-crypto/webp/thousmc-monero-qr.webp" type="image/webp">
+                    <img loading="lazy" alt="Monero donation QR code" src="images/qr-donate-crypto/png/thousmc-monero-qr.png">
+                </picture>
+                <button class="copy-button" data-address="47UTcym6npNaq6mvyftUBJ2xDjgDcSeAo5UyaoMdT3rkgsvFBHkiB4FGvRtnzL5mAiFPj1Xkv6av93pkEAXcuV76QvfwXRE">copy address</button>
+            </div>
+
+            <!-- litecoin Card -->
+            <div class="crypto-card">
+                <p class="crypto-label">litecoin</p>
+                <picture>
+                    <source srcset="images/qr-donate-crypto/avif/thousmc-litecoin-qr.avif" type="image/avif">
+                    <source srcset="images/qr-donate-crypto/webp/thousmc-litecoin-qr.webp" type="image/webp">
+                    <img loading="lazy" alt="Litecoin donation QR code" src="images/qr-donate-crypto/png/thousmc-litecoin-qr.png">
+                </picture>
+                <button class="copy-button" data-address="ltc1qy4nerre0mdjvy8rn22jcwq3n0ukpas2ps9gf9f">copy address</button>
+            </div>
+
+            <!-- solana Card -->
+            <div class="crypto-card">
+                <p class="crypto-label">solana</p>
+                <picture>
+                    <source srcset="images/qr-donate-crypto/avif/thousmc-solana-qr.avif" type="image/avif">
+                    <source srcset="images/qr-donate-crypto/webp/thousmc-solana-qr.webp" type="image/webp">
+                    <img loading="lazy" alt="Solana donation QR code" src="images/qr-donate-crypto/png/thousmc-solana-qr.png">
+                </picture>
+                <button class="copy-button" data-address="3aXCZYPdrYVnYj7RfuqtnZxoFVnnrvH1H7vyg6fGXwUM">copy address</button>
+            </div>
+
         </div>
     </body>
 </html>
