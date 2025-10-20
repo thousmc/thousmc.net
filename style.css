@@ -4,6 +4,12 @@
   --foreground-color: #444;
   --clickable: #0077aa;
 }
+
+@view-transition {
+  navigation: auto;
+}
+
+
 .dark-mode {
   --background-color: #222;
   --background-alt: #333;
